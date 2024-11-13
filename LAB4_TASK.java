@@ -1,15 +1,7 @@
 # TASK_1
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
-//Array Swapping
 public class Lab4_Task1 {
     public static void main(String[] args) {
         int[] array1 = {28, 6, 15, 5};
@@ -19,14 +11,12 @@ public class Lab4_Task1 {
         System.out.println("Before Swapping:");
         printArrays(array1, array2);
 
-        // Swap elements
         for (int i = 0; i < array1.length; i++) {
             int temp = array1[i];
             array1[i] = array2[i];
             array2[i] = temp;
         }
 
-        // Display swapped arrays
         System.out.println("After Swapping:");
         printArrays(array1, array2);
     }
@@ -42,17 +32,9 @@ public class Lab4_Task1 {
 
 
 # TASK_2
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
-//ArrayMerge
 public class Lab4_Task2 {
     public static void main(String[] args) {
         int[] array1 = {28, 6, 15, 5};
@@ -82,17 +64,9 @@ public class Lab4_Task2 {
 }
 
 # TASK_3
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
-//PalindromeCheck
 public class Lab4_Task3 {
     public static void main(String[] args) {
         String[] words = {"level", "pencil", "deed", "rat"};
@@ -125,16 +99,9 @@ public class Lab4_Task3 {
 
 
 # TASK_4
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- *///EvenOddCounter
 public class Lab4_Task4 {
     public static void main(String[] args) {
         int[] numbers = {2, 5, 8, 9, 12, 15};
@@ -156,17 +123,9 @@ public class Lab4_Task4 {
 }
 
 # TASK_5
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
-//MergeRemoveDuplicates
 
 import java.util.HashSet;
 import java.util.Set;
