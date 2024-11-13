@@ -1,11 +1,9 @@
 # TASK_1
 public class Lab1_Task1 {
     public static void main(String[] args) {
-        // String literals
-        String name = "Faiz Ul Karim Siddiqui";
-        String username = "faizul_2004";
         
-        // New keyword
+        String name = "ashar";
+        String username = "ashar_2004"
         String name2 = new String("Ashar");
         
         // Using intern method
@@ -46,17 +44,8 @@ public class Lab1_Task2 {
 }
 
 # TASK_3
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
-//StringOperations
+package DSA_LABS_TASK;
 public class Lab1_Task3{
     public static void main(String[] args) {
         String str1 = "Hello";
@@ -64,32 +53,18 @@ public class Lab1_Task3{
         String str3 = "Java";
         String str4 = "Programming";
         String str5 = "Language";
-        
-        // Concatenating all strings
         String concatenated = str1 + " " + str2 + " " + str3 + " " + str4 + " " + str5;
         System.out.println("Concatenated String: " + concatenated);
-        
-        // Converting fourth string to uppercase
-        System.out.println("Uppercase of fourth string: " + str4.toUpperCase());
-        
-        // Substring from 8th index onward
-        System.out.println("Substring from index 8: " + concatenated.substring(8));
+                System.out.println("Uppercase of fourth string: " + str4.toUpperCase());
+                System.out.println("Substring from index 8: " + concatenated.substring(8));
     }
 }
 
 
 #TASK_4
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
-// MergeStrings
 public class Lab1_Task4{
     public static void main(String[] args) {
         String word1 = "abc";
@@ -120,16 +95,7 @@ public class Lab1_Task4{
 
 
 # TASK_5
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
 public class Lab1_Task5 {
     public static void main(String[] args) {
         // Minimum and Maximum values of Integer
