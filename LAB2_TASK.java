@@ -1,49 +1,30 @@
 # TASK_1
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 import java.util.*;
 
-/**
- *
- * @author USER
- */
-//VectorExample
 public class Lab2_Task1 {
     public static void main(String[] args) {
         Vector<Integer> numbers = new Vector<>();
         int sum = 0;
 
-        // Initialize Vector with 10 integers
+        
         for (int i = 1; i <= 10; i++) {
             numbers.add(i);
             sum += i;
         }
-        System.out.println("Made by Faiz Ul Karim");
-        // Display all integers
+        System.out.println("Made by ASHAR");
         System.out.println("Integers in Vector: " + numbers);
-        
-        // Display sum of integers
-        
         System.out.println("Sum of Integers: " + sum);
     }
 }
 
 
 # TASK_2
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 import java.util.*;
-/**
- *
- * @author USER
- */
-//ArrayListMenu
+
 public class Lab2_Task2 {
     public static void main(String[] args) {
         ArrayList<String> strings = new ArrayList<>();
@@ -74,19 +55,13 @@ public class Lab2_Task2 {
 }
 
 # TASK_3
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 
-/**
- *
- * @author USER
- */
+
 class Employee {
     int empId;
     String empName;
@@ -111,7 +86,6 @@ public class Lab2_Task3 {
         employees.add(new Employee(2, "Haris", 2018));
         employees.add(new Employee(3, "Ayesha", 2020));
 
-        // Sort by joining year
         employees.sort(Comparator.comparingInt(e -> e.joiningYear));
 
         System.out.println("Employees sorted by joining year: " + employees);
@@ -121,17 +95,9 @@ public class Lab2_Task3 {
 
 
 # TASK_4
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 import java.util.*;
-/**
- *
- * @author USER
- */
-//Vector Example
 
 public class Lab2_Task4 {
     public static void main(String[] args) {
@@ -146,17 +112,8 @@ public class Lab2_Task4 {
 }
 
 # TASK_5
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package DSA_LABS_TASK;
 
-/**
- *
- * @author USER
- */
-//KthSmallest
+package DSA_LABS_TASK;
 import java.util.*;
 
 public class Lab2_Task5 {
@@ -169,17 +126,10 @@ public class Lab2_Task5 {
 }
 
 # TASK_6
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package DSA_LABS_TASK;
 import java.util.*;
-/**
- *
- * @author USER
- */
-//MergeArrayLists
+
 
 
 public class Lab2_Task6 {
